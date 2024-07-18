@@ -4,9 +4,25 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PaymentsOptionsComponent } from './payments-options/payments-options.component';
-const routes: Routes = [
-  { path: '', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
+import { PaymentsOptionsComponent } from './components/payments-options/payments-options.component';
+import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscription-benefits.component';
+// const routes: Routes = [
+//   { path: '', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
+// ];
+
+export const routes: Routes = [
+  // { path: "", redirectTo:"home" ,pathMatch:"full"},
+  // { path: "home" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  // { path: "?????" ,component:?????},
+  //  { path: "subscription benefits" ,component: SubscriptionBenefitsComponent},
+   { path: 'price list', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
+
 ];
 
 @NgModule({
@@ -15,18 +31,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routes: Routes = [
-    // { path: "", redirectTo:"home" ,pathMatch:"full"},
-    // { path: "home" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "**" ,component:?????},
-    { path: 'price list', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
-
-];
 
