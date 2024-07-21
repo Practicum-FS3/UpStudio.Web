@@ -1,25 +1,12 @@
-// import { Routes } from '@angular/router';
-
-
-
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { PaymentsOptionsComponent } from './payments-options/payments-options.component';
-const routes: Routes = [
-  { path: '', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+import { Routes } from '@angular/router';
+import { HomeComponent } from '../home/home.component';
+import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscription-benefits.component';
 
 export const routes: Routes = [
-    // { path: "", redirectTo:"home" ,pathMatch:"full"},
-    // { path: "home" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
+    { path: "", redirectTo:"/home" ,pathMatch:"full"},
+    { path: "SubscriptionBenefits" ,component:SubscriptionBenefitsComponent},
+    { path: "home" ,component:HomeComponent},
+    // { path: "???" ,component:?????.},
     // { path: "?????" ,component:?????},
     // { path: "?????" ,component:?????},
     // { path: "?????" ,component:?????},
