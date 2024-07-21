@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HealthFundsComponent } from './components/health-funds/health-funds.component';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscription-benefits.component';
 import { HomeComponent } from '../home/home.component';
@@ -8,8 +9,8 @@ import { HomeComponent } from '../home/home.component';
   standalone: true,
   imports: [RouterOutlet 
             ,RouterModule
-            , SubscriptionBenefitsComponent,
-          HomeComponent],
+           ,HealthFundsComponent
+            , SubscriptionBenefitsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
