@@ -1,31 +1,30 @@
-/* הגדרת גופנים */
-@font-face {
-  font-family: 'Ploni ML v2 AAA Light';
-   src: url('sources/font/Ploni/PloniLight.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Ploni ML v2 AAA Light';
+//   src: url('sources/font/Ploni/PloniLight.otf') format('opentype');
+//   font-weight: 300;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: 'Ploni ML v2 AAA Bold';
-   src: url('sources/fonts/Ploni/PloniBold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Ploni ML v2 AAA Bold';
+//   src: url('sources/fonts/Ploni/PloniBold.otf') format('opentype');
+//   font-weight: 700;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: 'Ploni ML v2 AAA';
-  src: url('sources/fonts/Ploni/PloniMedium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Ploni ML v2 AAA';
+//   src: url('sources/fonts/Ploni/PloniMedium.otf') format('opentype');
+//   font-weight: 500;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: 'Anomalia ML v2 AAA';
-  src: url('sources/fonts/Anomalia ML v2 AAA Bold.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Anomalia ML v2 AAA';
+//   src: url('sources/fonts/Anomalia ML v2 AAA Bold.otf') format('opentype');
+//   font-weight: 500;
+//   font-style: normal;
+// }
 
 /* סגנון כללי */
 .container {
@@ -42,7 +41,7 @@ div {
 }
 
 p {
-  font-family: 'Ploni ML v2 AAA';
+  // font-family: 'Ploni ML v2 AAA';
   font-size: 120%;
   font-weight: 400;
   text-align: center;
@@ -90,7 +89,7 @@ p {
   max-width: 100%;
   height: 100%;
   object-fit: cover;
-  background-image: url('sources/EnvelopeIcon.png');
+  // background-image: url('sources/EnvelopeIcon.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +111,7 @@ p {
 }
 
 #PaymentsOptionsDivString p {
-  font-family: 'Anomalia ML v2 AAA';
+  // font-family: 'Anomalia ML v2 AAA';
   color: #FFFCEF;
   font-size: 300%;
   margin-top: 0;
@@ -253,7 +252,7 @@ p {
   flex: 0 35%; /* תופס 35% מהרוחב של ה-container */
   height: 85%; /* מבטיח שהגובה יתאים לגובה של ה-container */
   /* width: 100%; */
-  background-image: url('sources/EnvelopeIcon.png');
+  // background-image: url('sources/EnvelopeIcon.png');
   /* background-size: cover; */
   background-position: top;
   background-repeat: no-repeat;
