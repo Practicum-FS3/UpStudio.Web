@@ -16,7 +16,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routes: Routes = [
-    // { path: "", redirectTo:"home" ,pathMatch:"full"},
+    { path: "", redirectTo:"home" ,pathMatch:"full"},
     // { path: "home" ,component:?????},
     // { path: "?????" ,component:?????},
     // { path: "?????" ,component:?????},
