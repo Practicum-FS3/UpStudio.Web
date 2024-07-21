@@ -1,5 +1,5 @@
 .pic1 {
-    background-image: url('../images/1.png');
+    background-image: url('../assets/s1.png');
     position: absolute;
     width: 52%;
     height: 55%;
@@ -13,7 +13,7 @@
     position: absolute;
     width: 20%;
     height: 55%;
-    left:11.5%;
+    left: 11.5%;
     top: 18%;
     background: #4C4C49;
     border-radius: 60px;
@@ -24,7 +24,6 @@
     height: 19%;
     left: 15.4%;
     top: 33.6%;
-    /* כותרת קטנה */
     font-family: 'Anomalia ML v2 AAA';
     font-style: normal;
     font-weight: 700;
@@ -44,7 +43,6 @@
     font-weight: 700;
     font-size: 2.6vw;
     line-height: 2.8vw;
-    /* identical to box height, or 111% */
     display: flex;
     align-items: center;
     text-align: right;
@@ -65,13 +63,11 @@
     height: 21.8%;
     left: 63.5%;
     top: 104%;
-
     font-family: 'Ploni ML v2 AAA';
     font-style: normal;
     font-weight: 400;
     font-size: 1.3vw;
     line-height: 1.5vw;
-    /* or 136% */
     text-align: center;
     color: #000000;
 }
@@ -95,7 +91,6 @@
     font-weight: 400;
     font-size: 1.3vw;
     line-height: 1.5vw;
-    /* or 136% */
     text-align: center;
     color: #000000;
 }
@@ -114,13 +109,11 @@
     height: 27.7%;
     left: 18%;
     top: 104%;
-    
     font-family: 'Ploni ML v2 AAA';
     font-style: normal;
     font-weight: 400;
     font-size: 1.3vw;
     line-height: 1.5vw;
-    /* or 136% */
     text-align: center;
     color: #000000;
 }
@@ -147,93 +140,36 @@
     font-weight: 700;
     font-size: 2vw;
     line-height: 2.5vw;
-    /* identical to box height, or 111% */
     display: flex;
     align-items: center;
     text-align: right;
     color: #4C4C49;
 }
-.rectangle190 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 162.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle282 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 172.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle283 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 182.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle284 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 192.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle285 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 202.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle287 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 212.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle286 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 222.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-.rectangle288 {
-    position: absolute;
-    width: 66.6%;
-    height: 7.4%;
-    left: 15.7%;
-    top: 232.4%;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
+.rectangle190,
+.rectangle282,
+.rectangle283,
+.rectangle284,
+.rectangle285,
+.rectangle287,
+.rectangle286,
+.rectangle288,
 .rectangle289 {
     position: absolute;
     width: 66.6%;
     height: 7.4%;
     left: 15.7%;
-    top: 242.4%;
     background: #FFFFFF;
     border-radius: 10px;
 }
+.rectangle190 { top: 162.4%; }
+.rectangle282 { top: 172.4%; }
+.rectangle283 { top: 182.4%; }
+.rectangle284 { top: 192.4%; }
+.rectangle285 { top: 202.4%; }
+.rectangle287 { top: 212.4%; }
+.rectangle286 { top: 222.4%; }
+.rectangle288 { top: 232.4%; }
+.rectangle289 { top: 242.4%; }
 .group85 {
     position: absolute;
     width: 16.9%;
@@ -262,29 +198,29 @@
     font-weight: 400;
     font-size: 1.4vw;
     line-height: 2.4vw;
-    /* or 184% */
+    text-decoration: none;
     display: 184%;
     align-items: center;
     text-align: right;
     color: #FAF6F3;
-    }
-    .rectangle22 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 2.3%;
-        height: 4.05%;
-        left: 41.9%;
-        top: 254%;
-        border: 1.5px solid #000000;
-        border-radius: 45px;
-    }
-    .arrov {
-        box-sizing: border-box;
-        position: absolute;
-        width: 1.2%;
-        height: 0;
-        left: 42.4%;
-        top: 251.6%;
-        color: #4C4C49;
-        font-size: 0.9vw;
-    }
+}
+.rectangle22 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 2.3%;
+    height: 4.05%;
+    left: 41.9%;
+    top: 254%;
+    border: 1.5px solid #000000;
+    border-radius: 45px;
+}
+.arrov {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1.2%;
+    height: 0;
+    left: 42.4%;
+    top: 251.6%;
+    color: #4C4C49;
+    font-size: 0.9vw;
+}
