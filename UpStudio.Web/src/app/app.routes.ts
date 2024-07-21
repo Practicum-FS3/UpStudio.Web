@@ -4,8 +4,8 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PaymentsOptionsComponent } from './payments-options/payments-options.component';
-const routes: Routes = [
+import { PaymentsOptionsComponent } from './components/payments-options/payments-options.component';
+export const routes: Routes = [
   { path: '', component:  PaymentsOptionsComponent}, // ברירת מחדל לקומפוננטת הבית
 ];
 
@@ -15,16 +15,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routes: Routes = [
-    { path: "", redirectTo:"home" ,pathMatch:"full"},
-    // { path: "home" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "?????" ,component:?????},
-    // { path: "**" ,component:?????},
-];
+
 
