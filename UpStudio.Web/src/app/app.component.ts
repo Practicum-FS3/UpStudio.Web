@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { HealthFundsComponent } from './components/health-funds/health-funds.component';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscription-benefits.component';
+import { PaymentsOptionsComponent } from './components/payments-options/payments-options.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscrip
   imports: [RouterOutlet 
             ,RouterModule
            ,HealthFundsComponent
-            , SubscriptionBenefitsComponent],
+            , SubscriptionBenefitsComponent,
+          PaymentsOptionsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
