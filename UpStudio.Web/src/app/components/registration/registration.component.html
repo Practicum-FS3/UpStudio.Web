@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="header">
+    <div class="registration col-10">
+      <p class="registration-text">להרשמה</p>
+      <!-- <div class="registration-image col-2"></div> -->
+      <!-- <img src="../../../assets/FIGMA.png"> -->
+    </div>
+    <div class="registration-image col-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="selects col-md-6 col-12">
+      <div class="select">
+        <select class="custom-select col-6">
+          <option selected>סוג האימון</option>
+          <option *ngFor="let training of trainings" [value]="training.id">{{ training.name }}</option>
+        </select>
+        <div class="button-text col-4">סוגי אימונים</div>
+        <div class="button-ref">
+          <nav><a href="../"></a></nav>
+        </div>
+      </div>
+      <div class="select">
+        <select class="custom-select col-6">
+          <option selected>מנוי</option>
+          <option *ngFor="let customer of customers" [value]="customer.id">{{ customer.name }}</option>
+        </select>
+        <div class="button-text col-4">מנויים</div>
+        <div class="button-ref">
+          <nav><a href="../"></a></nav>
+        </div>
+      </div>
+      <div class="select">
+        <select class="custom-select col-6">
+          <option selected>אפשרויות תשלום</option>
+          <option *ngFor="let paymentOption of paymentOptions" [value]="paymentOption.id">{{ paymentOption.name }}</option>
+        </select>
+        <div class="button-text col-4">מנויים</div>
+        <div class="button-ref">
+          <nav><a href="../"></a></nav>
+        </div>
+      </div>
+      <div class="select">
+        <select class="custom-select col-6">
+          <option selected>קופ"ח</option>
+          <option *ngFor="let hmo of HMOs" [value]="hmo.id">{{ hmo.name }}</option>
+        </select>
+        <div class="button-text col-4">נספח לקופ"ח</div>
+        <nav class="button-ref"><a href=""></a></nav>
+      </div>
+    </div>
+    <div class="wrap-from col-md-6 col-12">
+      <form name="form" class="form" onsubmit="customerRegistration()">
+        <input
+          class="form-input col-12"
+          type="text"
+          name="fullName"
+          placeholder="שם מלא"
+          required
+        />
+        <input
+          class="form-input col-12"
+          type="text"
+          name="address"
+          placeholder="כתובת"
+        />
+        <input
+          class="form-input col-12"
+          type="tel"
+          name="phone"
+          pattern="^0([2-9]-\d{7}|5\d-\d{7}|7\d-\d{7})$"
+          placeholder="טלפון"
+          required
+        />
+        <input
+          class="form-input col-12"
+          type="email"
+          name="email"
+          placeholder="מייל"
+        />
+        <div class="sumbit">
+          <div class="sumbit-text" >שלח</div>
+          <button type="submit" class="sumbit-button"></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

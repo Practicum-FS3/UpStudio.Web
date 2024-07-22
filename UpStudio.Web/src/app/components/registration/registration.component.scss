@@ -1,0 +1,197 @@
+// .header{
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+
+//     .registration {
+//         // display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         background-color: #4C4C49;
+//         width: 100%;
+//         height: 232rem;
+//         border-radius: 60px;
+//         margin-top: 179rem;
+//         margin-bottom: 150rem;
+//         margin-left: 254rem;
+//         position: relative;
+//         z-index: 0;
+//         padding-left: 15%;
+//     }
+
+//     .registration-text {
+//         font-family: "Anomalia ML v2 AAA Bold";
+//         font-size: 70rem;
+//         font-weight: 700;
+//         color: #FFFFFF;
+//         // position: relative;
+//         left: 10%;
+//     }
+
+//     .registration-image {
+//         background-image: url('../../../assets/FIGMA.png');
+//         background-size: contain;
+//         position: absolute;
+//         // background-position: relative;
+//         background-repeat: no-repeat;
+//         width: 100%;
+//         height: 100vh;
+//         z-index: 1;
+//     }
+// }
+.container {
+  max-width: 100%;
+  //   margin: 0 auto;
+  padding: 2%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 10%;
+  justify-items: space-between;
+
+  .registration {
+    align-items: center;
+    justify-content: center;
+    background-color: #4c4c49;
+    height: 200rem;
+    border-radius: 60px;
+    // margin-top: 10%;
+    // margin-bottom: 10%;
+    position: relative;
+    right: 30;
+    z-index: 0;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 4%;
+    margin-left: 10%;
+
+    .registration-text {
+      font-family: "Anomalia ML v2 AAA Bold";
+      font-size: 70rem; // Adjust font size as needed
+      font-weight: 700;
+      color: #ffffff;
+      position: relative;
+      left: 10%;
+    }
+  }
+
+  .registration-image {
+    background-image: url("../../../assets/FIGMA.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 150%;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.row {
+  //position: relative;
+  direction: rtl;
+  margin: 10%;
+}
+@font-face {
+  font-family: "Anomalia ML v2 AAA Bold";
+  src: url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.eot");
+  src: url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2ecc29f5f909de1152b76b935fa51c0f.svg#Anomalia ML v2 AAA Bold")
+      format("svg");
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  left: 0;
+  width: 100%;
+}
+
+.form-input,
+.custom-select {
+  width: 100%;
+  height: fit-content;
+  border-radius: 31px;
+  border: none;
+  background-color: #ececec;
+  font-family: "PloniMLv2AAA-Regular", sans-serif;
+  font-size: 22rem;
+  font-weight: 400;
+  text-align: right;
+  margin-bottom: 6%;
+  display: flex;
+  align-items: center;
+//   padding: 2%;
+  padding-right: 5%;
+  //   box-sizing: border-box;
+}
+.custom-select {
+  padding: 0%;
+  height: fit-content;
+}
+.form-input::placeholder {
+  color: black;
+}
+
+.sumbit {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  justify-content: right;
+}
+
+.sumbit-text,
+.button-text {
+  width: 181.33rem;
+  height: 37.68rem;
+  border-radius: 30px;
+  background-color: #d91c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "PloniMLv2AAA-Regular", sans-serif;
+  font-size: 22rem;
+  margin-right: 10rem;
+}
+.sumbit-button,
+.button-ref {
+  width: 36.55rem;
+  height: 36.55rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-image: url("../../../assets/Arrow\ 1\ Black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.custom-select {
+  padding-right: 5%;
+}
+
+.select {
+  display: flex;
+}
+
+.wrap-from {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
