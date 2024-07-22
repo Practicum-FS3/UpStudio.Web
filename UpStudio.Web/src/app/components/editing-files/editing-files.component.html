@@ -1,0 +1,93 @@
+<div class="cardCust">
+      <ng-container *ngIf="toedit; else otherContent">
+                <p>
+                    <label class="title">שם</label>
+                    <span [innerText]="currentCustomer?.lastName"></span>
+                    <span style="margin-right: 4px;" [innerText]="currentCustomer?.firstName"></span>
+                </p>
+                <p>
+                    <label class="title">טלפון</label>
+                    <span [innerText]="currentCustomer?.tel"></span>
+                </p>
+                <p>
+                    <label class="title">כתובת</label>
+                    <span [innerText]="currentCustomer?.address"></span>
+                </p> 
+                <p>
+                    <label class="title">סטטוס</label>
+                    <span>{{ currentCustomer?.isActive ? 'פעיל' : 'לא פעיל' }}</span>
+                </p> 
+                <p>
+                    <label class="title">זיהוי סוג לקוח</label>
+                    <span [innerText]="currentCustomer?.customerTypeId"></span>
+                </p>
+                <p>
+                    <label class="title">זיהוי אפשרויות תשלום</label>
+                    <span [innerText]="currentCustomer?.paymentOptionId"></span>
+                </p>
+                <p>
+                    <label class="title">מזהה קופת חולים</label>
+                    <span [innerText]="currentCustomer?.hmoId"></span>
+                </p>
+                <p>
+                    <label class="title">מזהה סוג מנוי</label>
+                    <span [innerText]="currentCustomer?.subscriptionTypeId"></span>
+                </p>
+                <input type="button" value="עריכה" (click)="edit()">
+            </ng-container>
+        <!-- </p-tabPanel> -->
+        <!-- <p-tabPanel header="מצב מנוי"> -->
+            
+        <!-- </p-tabPanel> -->
+
+   <ng-template #otherContent>
+        <form [formGroup]="myForm" id="form">
+            <h2>עריכה</h2>
+            <p>
+                <label >שם פרטי</label><br>
+                <input   pInputText id="firstName" formControlName="firstName" ngModel="{{currentCustomer?.firstName}}" />
+            </p>
+            <p>
+                <label >שם משפחה</label><br>
+                <input pInputText id="lastName" formControlName="lastName" ngModel="{{currentCustomer?.lastName}}" />
+            </p>
+            <p>
+                <label >טלפון</label><br>
+                <input pInputText id="tel" formControlName="tel" ngModel="{{currentCustomer?.tel}}" />
+            </p>
+            <p>
+                <label >כתובת</label><br>
+                <input pInputText id="address" formControlName="address" ngModel="{{currentCustomer?.address}}" />
+            </p>
+            <p>
+                <label >סוג לקוח:</label><br>
+                <select id="mySelect"
+pInputText id="customerTypeId" formControlName="customerTypeId" ngModel="{{currentCustomer?.customerTypeId}}">
+    <option *ngFor="let customerType of arrCustType" 
+  
+     [value]="customerType.id">{{customerType.title}}</option>
+  </select>
+            </p>
+            
+  
+
+            <p>
+                <label >אפשרות תשלום:</label><br>
+                <input pInputText id="paymentOptionId" formControlName="paymentOptionId" ngModel="{{currentCustomer?.paymentOptionId}}" />
+            </p>
+            <p>
+                <label >קופת חולים:</label><br>
+                <input pInputText id="hmoId" formControlName="hmoId" ngModel="{{currentCustomer?.hmoId}}" />
+            </p>    
+            <p>
+                <label >סוג מנוי:</label><br>
+                <input pInputText id="subscriptionTypeId" formControlName="subscriptionTypeId" ngModel="{{currentCustomer?.subscriptionTypeId}}" />
+            </p>
+
+            <input type="submit" value="שמור שינויים" (click)="saveChanges()">
+        </form>
+    </ng-template>
+</div>
+
+
+
