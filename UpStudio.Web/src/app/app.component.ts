@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { OurTeamComponent } from './components/our-team/our-team.component';
 import { HealthFundsComponent } from './components/health-funds/health-funds.component';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { SubscriptionBenefitsComponent } from '../subscription-benefits/subscription-benefits.component';
@@ -11,7 +12,8 @@ import { PaymentsOptionsComponent } from './components/payments-options/payments
             ,RouterModule
            ,HealthFundsComponent
             , SubscriptionBenefitsComponent,
-          PaymentsOptionsComponent],
+          PaymentsOptionsComponent,
+           OurTeamComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
