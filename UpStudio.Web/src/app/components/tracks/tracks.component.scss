@@ -1,0 +1,987 @@
+.tab {
+    background-color: #ffff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 2%;
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #4C4C49;
+    // text-align: right;
+    // display: flex;
+    // flex-direction: row;
+}
+
+.header {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 2%;
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #4C4C49;
+    // text-align: right;
+}
+
+.RachivClali {
+    padding: 3%;
+    padding-bottom: 7%;
+    width: 75.3%;
+    height: 80%;
+    left: 13%;
+    right: 13%;
+    top: 150.2%;
+    background: #FBEDE9;
+    border-radius: 60px;
+    // display: flex;
+    // justify-items: center;
+    // justify-content: center;
+    // flex-direction: column;
+    // align-items: center;
+    // flex-shrink: 0;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.pi-star-fill {
+    // position: absolute;
+    color: #FFC900;
+    font-size: 150%;
+    // color: #D91C5C;
+    // margin-right: 90%;
+    text-shadow: 1px 1px 1px #D91C5C;
+}
+
+.MasluleiMnui-text {
+    // position: absolute;
+    // width: 10.7%;
+    // height: 3.9%;
+    // left: 44.1%;
+    // top: 5%;
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 350%;
+    // line-height: 42px;
+    color: #4C4C49;
+    // background-color: #c1c15a;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    // align-items: center;
+    // align-content: center;
+    // justify-items: center;
+    // margin-bottom: 1000px;
+    /* identical to box height, or 111% */
+    // display: flex;
+    // align-items: center;
+    // text-align: right;
+    color: transparent;
+    /* Make the text color transparent */
+    // -webkit-text-stroke: 1px #D91C5C;
+    /* Add a blue border around the text */
+    -webkit-text-fill-color: #4C4C49;
+    /* Set the inside color of the text */
+    text-shadow: 1px 1px 0 white;
+    /* Adding a 3D effect with white shadows */
+}
+
+.down {
+    width: 20%;
+    height: 3.9%;
+    left: 40%;
+    top: 95%;
+    font-weight: 700;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background: #D91C5C;
+    border-radius: 60px;
+    padding: 0.5%;
+    margin-top: -90px;
+    // position: absolute;
+    // font-family: 'Ploni ML v2 AAA';
+    // font-style: normal;
+    // font-size: 38px;
+    // width: 14%;
+    // height: 4.05%;
+    // left: 44.3%;
+    // top: 253.8%;
+}
+
+.down-text {
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    color: #FAF6F3;
+    // position: absolute;
+    // width: 14.5%;
+    // height: 5%;
+    // left: 40.5%;
+    // top: 253.4%;
+    // line-height: 2.4vw;
+    /* or 184% */
+    // display: 184%;
+    // text-align: right;
+}
+
+//  .rectangle21-text {
+//      position: absolute;
+//      width: 14.5%;
+//      height: 5%;
+//      left: 40.5%;
+//      top: 253.4%;
+//      font-family: 'Ploni ML v2 AAA';
+//      font-style: normal;
+//      font-weight: 400;
+//      font-size: 1.4vw;
+//      line-height: 2.4vw;
+//      /* or 184% */
+//      display: 184%;
+//      align-items: center;
+//      text-align: right;
+//      color: #FAF6F3;
+//      }
+// .MasluleiMnui-text {
+//     // margin: 0;
+//     display: grid;
+//     width: 100%;
+//     align-items: center;
+//     text-align: center;
+//     grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+//     grid-gap: 20px;
+//     font-weight: 400;
+//     font-size: 250%;
+//     // color: #818078;
+//     color: #4C4C49;
+//     // font-family: 'Ploni ML v2 AAA';
+//       // font-style: normal;
+//       // padding-bottom: 4%;
+//       text-shadow: 1px 1px 0 white;
+//   }
+  
+//   .MasluleiMnui-text:before,
+//   .MasluleiMnui-text:after {
+//     content: '';
+//     height: 1px;
+//   }
+  
+//   .MasluleiMnui-text:after {
+//     background: linear-gradient(to right, transparent, #818078);
+//   }
+  
+//   .MasluleiMnui-text:before {
+//     background: linear-gradient(to right, #818078, transparent);
+//   }
+//   // .newColor {
+//   //   background-color:  #ffff;
+//   //   border-radius: 20px;
+//   //     margin-bottom: 30px;
+//   //     padding-bottom: 2%;
+//   //     font-family: 'Ploni ML v2 AAA';
+//   //     font-style: normal;
+//   //     font-weight: 700;
+//   //     font-size: 40px;
+//   //     line-height: 42px;
+//   //     color: #4C4C49;
+//   //     display: grid;
+//   //     padding: 3%;
+//   // }
+//   .tab {
+//       // background-color: #bb3d3d2b;
+//       border-radius: 20px;
+//       margin-bottom: 30px;
+//       padding: 2%;
+//       font-family: 'Ploni ML v2 AAA';
+//       font-style: normal;
+//       // font-weight: 700;
+//       // font-size: 250%;
+//       color: #4C4C49;
+//       box-shadow: 4px 0 6px #ffc8000d;
+//       border-width: 2px;
+//       // border-style: inset;
+//       border-color: #D91C5C;
+//   }
+//   .abc{
+//     background-color: #ffff;
+//     border-radius: 19px;
+  
+//   }
+//   .headerTab {
+//       // border-radius: 20px;
+//       // margin-bottom: 30px;
+//       // padding-bottom: 2%;
+//       // font-family: 'Ploni ML v2 AAA';
+//       // font-style: normal;
+//       font-weight: 700;
+//       font-size: 40px;
+//       // line-height: 42px;
+//       // color: #4C4C49;
+//       // background-color: #ffff;
+//       // display: grid;
+//       // padding: 3%;
+      
+//   }
+//   .mySpan{
+//     text-align: right;
+//     color: #dc2e68;
+//   }
+//   .RachivClali {
+//       padding: 3%;
+//       padding-bottom: 7%;
+//       width: 75.3%;
+//       height: 80%;
+//       // left: 13%;
+//       // right: 13%;
+//       // top: 150.2%;
+//       background: #FBEDE9;
+//       border-radius: 60px;
+//   }
+  
+//   .all {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       align-content: center;
+//       justify-items: center;
+//       flex-direction: column;
+//       padding: 3%;
+//   }
+//   .try{
+//     display: flex;
+//     gap: 50%;
+    
+//   }
+//   .pi-sparkles {
+//       color: #FFC900;
+//       font-size: 100%;
+//       text-shadow: 0.5px 0.5px 0.5px #D91C5C;
+      
+//   }
+//   // .pi-circle-off{
+//   //   color: #FFC900;
+//   //     font-size: 200px;
+//   //     text-shadow: 0.5px 0.5px 0.5px #D91C5C;
+//   // }
+//   .starAfter{
+//     color: #ca25a6;
+//   }
+//   // .MasluleiMnui-text {
+//   //     font-family: 'Ploni ML v2 AAA';
+//   //     font-style: normal;
+//   //     font-weight: 900;
+//   //     font-size: 350%;
+//   //     // line-height: 42px;
+//   //     color: #4C4C49;
+//   //     display: flex;
+//   //     justify-content: center;
+//   //     padding-bottom: 4%;
+//   //     color: transparent;
+//   //     -webkit-text-fill-color: #4C4C49;
+//   //     text-shadow: 1px 1px 0 white;
+//   // }
+  
+//   .down {
+//       width: 20%;
+//       height: 3.9%;
+//       left: 40%;
+//       top: 95%;
+//       font-weight: 700;
+//       line-height: 42px;
+//       display: flex;
+//       align-items: center;
+//       align-content: center;
+//       text-align: center;
+//       justify-items: center;
+//       justify-content: center;
+//       background: #D91C5C;
+//       border-radius: 60px;
+//       padding: 0.5%;
+//       margin-top: -80px;
+//   }
+//   .outer-icon {
+//     // position: relative;
+//     color: #8988a6;
+//     padding: 5%;
+//   }
+  
+//   .outer-icon i {
+//     position: absolute;
+//     color: #481cd9;
+//     // width: 100px;
+//     // height: 100px;
+//     // top: 50%;
+//     // left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+//   .down-text {
+    
+//       font-family: 'Ploni ML v2 AAA';
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 200%;
+//       color: #FAF6F3;
+//   }
+//   .tabText{
+//       font-size: 80%;
+//       font-weight: 5px;
+//   }
+//   .icon-container {
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%; /* Creates a circular shape */
+//     // background-color: #3498db;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+//   i {
+//     color: white;
+//   }
+//   @media only screen and (max-width: 768px) {
+//     .MasluleiMnui-text {
+//        font-size: 150%; /* Adjust font size */
+//     }
+  
+//     .tab {
+//        padding: 1%; /* Adjust padding */
+//        box-shadow: 2px 0 4px #ffc8000d; /* Adjust box shadow */
+//        border-width: 1px; /* Adjust border width */
+//     }
+  
+//     .headerTab {
+//        font-size: 30px; /* Adjust font size */
+//     }
+  
+//     .RachivClali {
+//        width: 90%; /* Adjust width */
+//        height: 70%; /* Adjust height */
+//     }
+  
+//     .down {
+//        width: 30%; /* Adjust width */
+//        height: 3.2%; /* Adjust height */
+//        font-size: 150%; /* Adjust font size */
+//        line-height: 38px; /* Adjust line height */
+//        padding: 0.3%; /* Adjust padding */
+//     }
+  
+//     .down-text {
+//        font-size: 150%; /* Adjust font size */
+//     }
+  
+//     .tabText {
+//        font-size: 70%; /* Adjust font size */
+//     }
+//   }
+  
+
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 3%;
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+  }
+  .RachivClali {
+    padding: 3%;
+    padding-bottom: 7%;
+    width: 75.3%;
+    height: 80%;
+    background: #FBEDE9;
+    border-radius: 60px;
+  }
+  .MasluleiMnui-text {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+    font-weight: 600;
+    font-size: 300%;
+    color: #4C4C49;
+    text-shadow: 1px 1px 0 white;
+    margin-bottom: 60px;
+  }
+  .MasluleiMnui-text:before,
+  .MasluleiMnui-text:after {
+    content: '';
+    height: 1px;
+  }
+  .MasluleiMnui-text:after {
+    background: linear-gradient(to right, transparent, #818078);
+  }
+  .MasluleiMnui-text:before {
+    background: linear-gradient(to right, #818078, transparent);
+  }
+  .tab {
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 2%;
+    font-weight: 700;
+    font-size: 230%;
+    color: #4C4C49;
+    box-shadow: 4px 0 6px #ffc8000d;
+    border-width: 2px;
+    line-height: normal;
+    font-family: 'PloniLight';
+  }
+  .abc {
+    background-color: #ffff;
+    border-radius: 19px;
+  }
+  .headerTab {
+    font-weight: 540;
+    font-size: 90%;
+  }
+  .mySpan {
+    text-align: right;
+    color: #dc2e68;
+  }
+  .try {
+    display: grid;
+    grid-template-columns: 4% 92% 4% ;
+  }
+  .pi-star {
+    color: #FFC900;
+    font-size: 100%;
+    text-shadow: 0.5px 0.5px 0.5px #D91C5C;
+    text-align: right;
+  }
+  .pi-spin:hover {
+    animation-play-state: paused;
+  }
+  .custom-tooltip .ui-tooltip-text {
+      background-color: lightblue !important;
+      color: rgb(216, 29, 29) !important;
+      border: 1px solid black !important;
+    }
+  .down {
+    width: 40%;
+    height: 3.9%;
+    font-weight: 700;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    direction: rtl;
+    border-radius: 60px;
+    padding: 0.5%;
+    margin-top: -80px;
+  }
+  .down-text {
+    font-family: 'Anomalia ML v2 AAA Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    color: #ffff;
+  
+    width: 50%;
+    height: 3.9%;
+    font-weight: 700;
+    line-height: 42px;
+    background: #D91C5C;
+    border-radius: 60px;
+    padding: 0.5%;
+  }
+  .outer-icon {
+    color: #020007;
+    transform: translate(-50%, -50%);
+    margin-right: 27px;
+    cursor: pointer;
+    font-weight: 100;
+  }
+  .pi-circle-off {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  .pi-arrow-down-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  .pi-angle-down,.pi-angle-up{
+      font-size: 70%;
+  }
+  @media screen and (max-width: 768px) {
+    .pi-star {
+        display: none;
+    }
+    .try {
+      display: grid;
+      grid-template-columns: 100% ;
+    }
+    .tab {
+      font-size:100%;
+    }
+    .MasluleiMnui-text {
+      font-size: 150%;
+      margin-bottom: 20px;
+    }
+    .RachivClali {
+      width: 100%;
+      height: 80%;
+      border-radius: 40px;
+    }
+    .down {
+      width: 40%;
+      height: 1%;
+      font-weight: 700;
+      line-height: 42px;
+      border-radius: 60px;
+      padding: 0.5%;
+      margin-top: -40px;
+    }
+    .down-text {
+      font-size: 100%;
+      width: 100%;
+      height: 1%;
+      line-height: 25px;
+    }
+    .outer-icon {
+      margin-right: 14px;
+    }
+    .pi-circle-off {
+      font-size: 27px;
+    }
+    .pi-arrow-down-left {
+      font-size: 15px;
+    }
+  }
+  
+  // font-family: 'Ploni ML v2 AAA Light';
+    // font-family: 'Ploni ML v2 AAA Bold';
+    // font-family: 'Ploni ML v2 AAA';
+    // font-family: 'PloniLight';
+    // font-family: 'Anomalia ML v2 AAA Medium';
+    // font-family: 'Anomalia ML v2 AAA Regular';
+    // font-family: 'PloniUBold';
+    // font-family: 'Anomalia ML v2 AAA';
+    // font-family: 'Ploni ML v2 AAA', sans-serif;
+  
+  // @media only screen and (max-width: 768px) {
+  //   .RachivClali {
+  //     width: 90%;
+  //     /* Adjust the width for smaller screens */
+  
+  //     padding-bottom: 5%;
+  //     /* Adjust padding for smaller screens */
+  //   }
+  
+  //   .tab {
+  
+  //     font-size: 100%;
+  //     /* Adjust font size for smaller screens */
+  //   }
+  
+  // }
+  
+  // .MasluleiMnui-text {
+  
+  //   font-size: 150%;
+  //   /* Adjust font size for smaller screens */
+  // }
+  
+  // .down {
+  //   width: 40%;
+  //   /* Adjust width for smaller screens */
+  //   height: 30px;
+  //   /* Adjust height for smaller screens */
+  //   margin-top: -40px;
+  //   /* Adjust margin for smaller screens */
+  //   font-size: 80%;
+  //   padding: 0;
+  // }
+  
+  // .pi-circle-off {
+  //   font-size: 40px;
+  //   /* Adjust font size for smaller screens */
+  // }
+  
+  // .pi-arrow-down-left {
+  //   font-size: 20px;
+  //   /* Adjust font size for smaller screens */
+  // }
+  
+  // .down-text {
+  //   font-size: 150%;
+  //   /* Adjust font size for smaller screens */
+  // }
+  
+  // @media only screen and (max-width: 768px) {
+  //   .MasluleiMnui-text {
+  //      font-size: 150%; /* Adjust font size */
+  //   }
+  
+  //   .tab {
+  //      padding: 1%; /* Adjust padding */
+  //      box-shadow: 2px 0 4px #ffc8000d; /* Adjust box shadow */
+  //      border-width: 1px; /* Adjust border width */
+  //   }
+  
+  //   .headerTab {
+  //      font-size: 30px; /* Adjust font size */
+  //   }
+  
+  //   .RachivClali {
+  //      width: 90%; /* Adjust width */
+  //      height: 70%; /* Adjust height */
+  //   }
+  
+  //   .down {
+  //      width: 30%; /* Adjust width */
+  //      height: 3.2%; /* Adjust height */
+  //      font-size: 150%; /* Adjust font size */
+  //      line-height: 38px; /* Adjust line height */
+  //      padding: 0.3%; /* Adjust padding */
+  //   }
+  
+  //   .down-text {
+  //      font-size: 150%; /* Adjust font size */
+  //   }
+  
+  //   .tabText {
+  //      font-size: 70%; /* Adjust font size */
+  //   }
+  // }
+
+  //new
+
+  .all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 3%;
+    font-family: 'Ploni ML v2 AAA';
+    font-style: normal;
+}
+
+.RachivClali {
+    padding-top: 5%;
+    padding: 3%;
+    width: 75%;
+    height: 80%;
+    background: #FBEDE9;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MasluleiMnui-text {
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+    font-weight: 600;
+    font-size: 320%;
+    color: #4C4C49;
+    text-shadow: 1px 1px 0 white;
+    margin-bottom: 5%;
+}
+
+.MasluleiMnui-text:before,
+.MasluleiMnui-text:after {
+    content: '';
+    height: 1px;
+}
+
+.MasluleiMnui-text:after {
+    background: linear-gradient(to right, transparent, #818078);
+}
+
+.MasluleiMnui-text:before {
+    background: linear-gradient(to right, #818078, transparent);
+}
+
+.tab {
+    background-color: #ffff;
+    border-radius: 19px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 2%;
+    font-weight: 700;
+    font-size: 230%;
+    color: #4C4C49;
+    box-shadow: 4px 0 6px #ffc8000d;
+    border-width: 2px;
+    line-height: normal;
+    font-family: 'PloniLight';
+    width: 90%;
+}
+
+.tabContent {
+    font-weight: 540;
+    font-size: 90%;
+}
+
+.mySpan {
+    text-align: right;
+    color: #dc2e68;
+}
+
+.tabHeader {
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+}
+
+.pi-star,
+.pi-star-fill {
+    color: #FFC900;
+    font-size: 100%;
+    text-shadow: 0.5px 0.5px 0.5px #D91C5C;
+    text-align: right;
+}
+
+.down {
+    width: 40%;
+    height: 3.9%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    direction: rtl;
+    border-radius: 60px;
+}
+
+.down-text {
+    font-family: 'Anomalia ML v2 AAA Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+    color: #ffff;
+    font-weight: 700;
+    background: #D91C5C;
+    border-radius: 60px;
+    padding: 4%;
+    width: 100%;
+}
+
+.outer-icon {
+    color: #020007;
+    transform: translate(-50%, -50%);
+    margin-right: 29px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.circleDown {
+    width: 57px;
+    height: 57px;
+    border-radius: 30px;
+    border: 1px solid var(--Color-7, #000);
+    background: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pi-arrow-down-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.pi-angle-down,
+.pi-angle-up {
+    font-size: 70%;
+}
+
+.hidden-icon {
+    visibility: hidden;
+}
+
+// .pi-spin:hover {
+//     animation-play-state: paused;
+// }
+
+/* Large Devices (Desktops) - 992px to 1200px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .RachivClali {
+        width: 75%;
+        height: 80%;
+        padding: 3%;
+    }
+
+    .MasluleiMnui-text {
+        font-size: 280%;
+        width: 95%;
+    }
+
+    .tab {
+        font-size: 200%;
+    }
+
+    .down-text {
+        font-size: 200%;
+    }
+
+    .outer-icon {
+        margin-right: 22px;
+    }
+
+    .pi-arrow-down-left {
+        font-size: 25px;
+    }
+
+    .circleDown {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+/* Medium Devices (Desktops) - 768px to 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .RachivClali {
+        width: 85%;
+        height: 90%;
+        padding: 4%;
+    }
+
+    .MasluleiMnui-text {
+        font-size: 280%;
+        width: 90%;
+    }
+
+    .tab {
+        font-size: 160%;
+    }
+
+    .down-text {
+        font-size: 150%;
+        height: 100%;
+    }
+
+    .circleDown {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pi-arrow-down-left {
+        font-size: 20px;
+    }
+
+    .outer-icon {
+        margin-right: 20px;
+    }
+}
+
+/* Small Devices (Tablets) - 576px to 768px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .RachivClali {
+        width: 90%;
+        height: 90%;
+        padding: 4%;
+    }
+
+    .MasluleiMnui-text {
+        font-size: 240%;
+        width: 90%;
+    }
+
+    .tab {
+        font-size: 160%;
+    }
+
+    .down-text {
+        font-size: 150%;
+    }
+
+    .outer-icon {
+        margin-right: 17px;
+    }
+
+    .pi-arrow-down-left {
+        font-size: 15px;
+    }
+
+    .circleDown {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Extra Small Devices (Phones) - up to 576px */
+@media screen and (max-width: 576px) {
+   
+    .tab {
+        font-size: 120%;
+    }
+
+    .MasluleiMnui-text {
+        font-size: 170%;
+        width: 90%;
+    }
+
+    .RachivClali {
+        width: 100%;
+        height: 80%;
+        border-radius: 40px;
+    }
+
+    .down-text {
+        font-size: 110%;
+    }
+
+    .outer-icon {
+        margin-right: 15px;
+    }
+
+    .pi-arrow-down-left {
+        font-size: 15px;
+    }
+
+    .circleDown {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+  
+  

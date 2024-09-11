@@ -1,0 +1,285 @@
+<!-- <p>tracks works!</p> -->
+
+<!-- <div class="Rectangle168"></div>  -->
+
+<!-- <mat-accordion>
+    <mat-expansion-panel *ngFor="let tab of tabs; let i = index" [expanded]="tab.isOpened" (opened)="toggleAccordion(i)">
+      <mat-expansion-panel-header>
+        <span>{{ tab.title }}</span> 
+      </mat-expansion-panel-header>
+      {{ tab.content }}
+    </mat-expansion-panel>
+  </mat-accordion> -->
+
+
+
+<!-- <div class="all">
+    <div class="Rectangle168" dir="rtl">
+    <div class="tab" *ngFor="let item of accordionTabs">
+      <div class="accordion-header" (mouseover)="toggleAccordion(item, true)" (mouseout)="toggleAccordion(item, false)">
+        <p class="question">{{ item.header }}</p>
+      </div>
+      <div class="accordion-content" [ngClass]="{'open': item.active}">
+        <p class="answer">{{ item.content }}</p>
+      </div>
+    </div>
+</div>
+  </div> -->
+
+<div class="all">
+    <div class="RachivClali">
+        <div class="MasluleiMnui-text">מסלולי מנויים</div>
+        <div *ngFor="let tab of this.tracks; let i = index">
+            <div class="tab" [class.open]="tab.IsActive" (click)="toggleAccordion(i)">
+                <!-- <input type="text" pInputText pTooltip="Enter your username" tooltipPosition="top" placeholder="Top" /> -->
+                <div class="pi pi-star-fill" dir="ltr" tooltipPosition="top" pTooltip="{{tab.Title}} - {{tab.Description}}"></div>
+                <div class="header" dir="rtl">{{ tab.Title }}
+                    <p *ngIf="tab.IsActive">{{ tab.Description }} </p>
+                    <p *ngIf="tab.IsActive">{{ tab.NumberOfTrainingPerWeek }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="down-text">להצטרפות למנוי</div>
+    </div>
+</div>
+
+<!-- <p-accordion>
+        <ng-container *ngFor="let tab of accordionTabs; let i = index">
+          <p-accordionTab [selected]="tab.active" (click)="toggleAccordion(i)">
+            <ng-template pTemplate="header">
+              {{ tab.header }}
+            </ng-template>
+            <ng-template pTemplate="content">
+              {{ tab.content }}
+            </ng-template>
+          </p-accordionTab>
+        </ng-container>
+      </p-accordion> -->
+
+
+<!-- <div class="card flex justify-content-center">
+        <p-accordion class="w-full" expandIcon="pi pi-plus" collapseIcon="pi pi-minus">
+        <p-accordionTab>
+            <ng-template pTemplate="header">
+                <span class="flex align-items-center gap-2 w-full">
+                    <p-avatar 
+                        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" 
+                        shape="circle" />
+                    <span class="font-bold white-space-nowrap">
+                        Amy Elsner
+                    </span>
+                    <p-badge value="3" class="ml-auto mr-2" />
+                </span>
+            </ng-template>
+            <p class="m-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </p-accordionTab>
+        <p-accordionTab>
+            <ng-template pTemplate="header">
+                <span class="flex align-items-center gap-2 w-full">
+                    <p-avatar 
+                        image="https://primefaces.org/cdn/primeng/images/demo/avatar/onyamalimba.png" 
+                        shape="circle" />
+                    <span class="font-bold white-space-nowrap">
+                        Onyama Limba
+                    </span>
+                    <p-badge value="4" class="ml-auto mr-2" />
+                </span>
+            </ng-template>
+            <p class="m-0">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
+            </p>
+    </p-accordionTab>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <span class="flex align-items-center gap-2 w-full">
+                <p-avatar 
+                    image="https://primefaces.org/cdn/primeng/images/demo/avatar/ionibowcher.png" 
+                    shape="circle" />
+                <span class="font-bold white-space-nowrap">
+                    Ioni Bowcher
+                </span>
+                <p-badge value="2" class="ml-auto mr-2" />
+            </span>
+        </ng-template>
+        <p class="m-0">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+            qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+        </p>
+    </p-accordionTab>
+    </p-accordion>
+    </div> -->
+
+<!-- <div class="Rectangle190 "></div> -->
+<!-- <div class="rectangle282"></div>
+<div class="rectangle283"></div>
+<div class="rectangle284 "></div>
+<div class="rectangle285 "></div>
+<div class="rectangle287 "></div>
+<div class="rectangle286 "></div>
+<div class="rectangle288 "></div>
+<div class="rectangle289 "></div> 
+<div class="rectangle21"></div>  -->
+<!-- <p>subscription-tracks works!</p> -->
+<!-- <div class="all"> -->
+<!-- <cdk-accordion class="example-accordion">
+    for (item of items; track item; let index = $index) {
+      <cdk-accordion-item
+        #accordionItem="cdkAccordionItem"
+        class="example-accordion-item"
+        role="button"
+        tabindex="0"
+        [attr.id]="'accordion-header-' + index"
+        [attr.aria-expanded]="accordionItem.expanded"
+        [attr.aria-controls]="'accordion-body-' + index">
+        <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
+          {{ item }}
+          <span class="example-accordion-item-description">
+            Click to {{ accordionItem.expanded ? 'close' : 'open' }}
+          </span>
+        </div>
+        <div
+          class="example-accordion-item-body"
+          role="region"
+          [style.display]="accordionItem.expanded ? '' : 'none'"
+          [attr.id]="'accordion-body-' + index"
+          [attr.aria-labelledby]="'accordion-header-' + index">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+          excepturi incidunt ipsum deleniti labore, tempore non nam doloribus blanditiis
+          veritatis illo autem iure aliquid ullam rem tenetur deserunt velit culpa?
+        </div>
+      </cdk-accordion-item>
+    }
+  </cdk-accordion>
+</div> -->
+
+<!-- <div class="RachivClali">
+        <div class="MasluleiMnui-text">מסלולי מנויים</div>
+        <div *ngFor="let tab of this.tracks; let i = index">
+            <div class="tab" [class.open]="tab.IsActive" (click)="toggleAccordion(i)">
+                <div class="pi pi-star-fill" dir="ltr" tooltipPosition="top" pTooltip="{{tab.Title}} - {{tab.Description}}"></div>
+                <div class="header" dir="rtl">{{ tab.Title }}
+                    <p *ngIf="tab.IsActive">{{ tab.Description }} </p>
+                    <p *ngIf="tab.IsActive">{{ tab.NumberOfTrainingPerWeek }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="down-text">להצטרפות למנוי</div>
+    </div> -->
+
+<!-- <div class="RachivClali">
+        <div class="MasluleiMnui-text">מסלולי מנויים</div>
+        <p-accordion  class="headerTab" [activeIndex]="0" expandIcon="pi-arrow-left" collapseIcon="pi-arrow-right" >
+            <p-accordionTab class="tab" [header]="tab.title" *ngFor="let tab of tracks" style="text-align: right; border-radius: 50%;">
+                <div class="pi pi-star-fill" dir="ltr" tooltipPosition="top" pTooltip="{{tab.description}}"></div>
+                <div class="headerTab">
+                    <p class="tabText" >{{ tab.description }} </p>
+                    <p class="tabText" >מספר אימונים בשבוע: {{ tab.numberOfTrainingPerWeek }} </p>
+                    <p class="tabText" >מחיר לאימון בודד: {{ tab.priceForTraining }} ₪</p>
+                    <p class="tabText" >סה"כ: {{ tab.totalTraining*tab.priceForTraining }} ₪</p>
+                    <p class="tabText" >סה"כ תשלום חודשי:  {{ tab.numberOfTrainingPerWeek*tab.priceForTraining*4 }} ₪</p>
+                </div>
+            </p-accordionTab>
+        </p-accordion>
+        <div class="down">
+            <div class="down-text">להצטרפות למנוי</div>
+        </div>
+    </div> -->
+<!-- <div id="myDiv" (click)="changeColor('#myDiv')">Click me to change color</div> -->
+<!-- <div class="RachivClali">
+          <div class="MasluleiMnui-text" ><h3>מסלולי מנויים</h3></div>
+          <div class="abc" *ngFor="let tab of tracks; let i = index">
+              <div class="tab" [class.open]="tab.isActive" (click)="toggleAccordion(i)" style="text-align: right ;">
+                <div class="try">
+                <span class="pi pi-sparkles" dir="rtl" tooltipPosition="top" pTooltip="{{tab.description}}" (mouseover)="changeColor('#pi-star-fill','starAfter')"></span>
+                <span class="mySpan" (focus)="toChangeSpan(tab.numberOfTrainingPerWeek)"  (click)="changeColor('#headerTab','headerAfter')">{{ tab.title }} </span>
+            </div>
+                  <div id="headerTab" dir="rtl" >
+                      <div class="tabText" *ngIf="tab.isActive">{{ tab.description }} </div>
+                      <div class="tabText" *ngIf="tab.isActive">מספר אימונים בשבוע: {{ tab.numberOfTrainingPerWeek }} </div>
+                      <div class="tabText" *ngIf="tab.isActive">מחיר לאימון בודד: {{ tab.priceForTraining }} ₪</div>
+                      <div class="tabText" *ngIf="tab.isActive">סה"כ: {{ tab.totalTraining*tab.priceForTraining }} ₪</div>
+                      <div class="tabText" *ngIf="tab.isActive">סה"כ תשלום חודשי:  {{ tab.numberOfTrainingPerWeek*tab.priceForTraining*4 }} ₪</div>
+                  </div>
+              </div>
+          </div>
+      </div> 
+       <div class="down">
+          <div class="down-text">להצטרפות למנוי</div>
+      </div>
+    </div> -->
+    <div class="all">
+        <div class="RachivClali">
+            <div class="MasluleiMnui-text">מסלולי מנויים</div>
+            <div class="abc" *ngFor="let tab of this.tracks; let i = index">
+                <div class="tab" [class.open]="tab.isActive" (click)="toggleAccordion(i)" style="text-align: right ;">
+                    <div class="try">
+                        <span #starIcon class="pi pi-spin pi-star" [ngClass]="{ 'pi-spin': !tab.isActive }" [pTooltip]="!tab.isActive ? tab.description : ''" dir="rtl" tooltipPosition="top" ></span>
+                        <span class="mySpan">{{ tab.title }} </span>
+                        <span class="pi pi-angle-down" [id]="'pi-' + tab.id" (click)="toggleIcon3(tab.id)"></span>
+                    </div>
+                    <div class="headerTab" *ngIf="tab.isActive" dir="rtl">
+                        <div class="tabText">{{ tab.description }} </div>
+                        <div class="tabText">מספר אימונים בשבוע: {{ tab.numberOfTrainingPerWeek }}</div>
+                        <div class="tabText">מחיר לאימון בודד: {{ tab.priceForTraining }} ₪</div>
+                        <div class="tabText">סה"כ: {{ tab.totalTraining*tab.priceForTraining }} ₪</div>
+                        <div class="tabText">סך תשלום חודשי: {{ tab.numberOfTrainingPerWeek*tab.priceForTraining*4 }} ₪</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="down-text">להצטרפות למנוי</div>
+            <div class="outer-icon">
+                <div class="pi pi-circle-off"></div>
+                <div class="pi pi-arrow-down-left"></div>
+            </div>
+        </div>
+    </div>
+    
+<!-- new -->
+
+<div class="all">
+    <div class="RachivClali">
+        <div class="MasluleiMnui-text">מסלולי מנויים</div>
+        <div class="tab" *ngFor="let tab of this.tracks; let i = index">
+            <div [class.open]="tab.isActive" style="text-align: right ;">
+                <div class="tabHeader">
+                    <span class="pi pi-star" [id]="'star-' + tab.id" [pTooltip]="!tab.isActive ? tab.description : ''"
+                        dir="rtl" tooltipPosition="top" (mouseover)="toggleIconStarOn(tab.id)"
+                        (mouseout)="toggleIconStarOff(tab.id)" [ngClass]="{'hidden-icon': tab.isActive}"></span>
+                    <!-- <span #starIcon class="pi pi-spin pi-star" [ngClass]="{ 'pi-spin': !tab.isActive }"
+                        [pTooltip]="!tab.isActive ? tab.description : ''" dir="rtl" tooltipPosition="top"></span> -->
+                    <span class="mySpan">{{ tab.title }} </span>
+                    <span *ngIf="!tab.isActive" class="pi pi-angle-down" [id]="'angle-' + tab.id"
+                        (click)="toggleAccordion(i)"></span>
+                    <span *ngIf="tab.isActive" class="pi pi-angle-up" [id]="'angle-' + tab.id"
+                        (click)="toggleAccordion(i)"></span>
+                </div>
+                <div class="tabContent" *ngIf="tab.isActive" dir="rtl">
+                    <div>{{ tab.description }} </div>
+                    <div>מספר אימונים בשבוע: {{ tab.numberOfTrainingPerWeek }}</div>
+                    <div>מחיר לאימון בודד: {{ tab.priceForTraining }} ₪</div>
+                    <div>סה"כ: {{ tab.totalTraining*tab.priceForTraining }} ₪</div>
+                    <div>סך תשלום חודשי: {{ tab.numberOfTrainingPerWeek*tab.priceForTraining*4 }} ₪</div>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="down-text">להצטרפות למנוי</div>
+            <div class="outer-icon">
+                <div type="button" class="circleDown"></div>
+                <div class="pi pi-arrow-down-left"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
